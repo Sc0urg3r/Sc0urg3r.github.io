@@ -152,6 +152,9 @@
 
 	p {
 		margin: 0 0 2rem 0;
+	}
+
+	.bioText {
 		word-spacing: 10px;
 	}
 
