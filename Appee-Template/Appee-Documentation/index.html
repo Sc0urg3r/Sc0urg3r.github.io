@@ -1,0 +1,456 @@
+<!doctype html>
+<!--[if IE 6 ]><html lang="en-us" class="ie6"> <![endif]-->
+<!--[if IE 7 ]><html lang="en-us" class="ie7"> <![endif]-->
+<!--[if IE 8 ]><html lang="en-us" class="ie8"> <![endif]-->
+<!--[if (gt IE 7)|!(IE)]><!-->
+<html lang="en-us">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <title>appee | Bootstrap App Landing page</title>
+    <meta name="description" content="bootstrap app landing page">
+    <meta name="author" content="CodexTree">
+    <meta name="copyright" content="CodexTree">
+    <meta name="generator" content="Documenter v2.0 http://rxa.li/documenter">
+    <meta name="date" content="2016-01-023T00:00:00+01:00">
+    <link rel="stylesheet" href="assets/css/documenter_style.css" media="all">
+    <link rel="stylesheet" href="assets/js/google-code-prettify/prettify.css" media="screen">
+    <script src="assets/js/google-code-prettify/prettify.js"></script>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/jquery.scrollTo.js"></script>
+    <script src="assets/js/jquery.easing.js"></script>
+    <script>
+    document.createElement('section');
+    var duration = '500',
+        easing = 'swing';
+    </script>
+    <script src="assets/js/script.js"></script>
+    <style>
+    html {
+        background-color: #EEEEEE;
+        color: #383838;
+    }
+    
+    ::-moz-selection {
+        background: #333636;
+        color: #00DFFC;
+    }
+    
+    ::selection {
+        background: #333636;
+        color: #00DFFC;
+    }
+    
+    #documenter_sidebar #documenter_logo {
+        background-image: url(assets/images/image_1.png);
+    }
+    
+    a {
+        color: #008C9E;
+    }
+    
+    .btn {
+        border-radius: 3px;
+    }
+    
+    .btn-primary {
+        background-image: -moz-linear-gradient(top, #008C9E, #006673);
+        background-image: -ms-linear-gradient(top, #008C9E, #006673);
+        background-image: -webkit-gradient(linear, 0 0, 0 008C9E%, from(#343838), to(#006673));
+        background-image: -webkit-linear-gradient(top, #008C9E, #006673);
+        background-image: -o-linear-gradient(top, #008C9E, #006673);
+        background-image: linear-gradient(top, #008C9E, #006673);
+        filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#008C9E', endColorstr='#006673', GradientType=0);
+        border-color: #006673 #006673 #bfbfbf;
+        color: #FFFFFF;
+    }
+    
+    .btn-primary:hover,
+    .btn-primary:active,
+    .btn-primary.active,
+    .btn-primary.disabled,
+    .btn-primary[disabled] {
+        border-color: #008C9E #008C9E #bfbfbf;
+        background-color: #006673;
+    }
+    
+    hr {
+        border-top: 1px solid #D4D4D4;
+        border-bottom: 1px solid #FFFFFF;
+    }
+    
+    #documenter_sidebar,
+    #documenter_sidebar ul a {
+        background-color: #343838;
+        color: #FFFFFF;
+    }
+    
+    #documenter_sidebar ul a {
+        -webkit-text-shadow: 1px 1px 0px #494F4F;
+        -moz-text-shadow: 1px 1px 0px #494F4F;
+        text-shadow: 1px 1px 0px #494F4F;
+    }
+    
+    #documenter_sidebar ul {
+        border-top: 1px solid #212424;
+    }
+    
+    #documenter_sidebar ul a {
+        border-top: 1px solid #494F4F;
+        border-bottom: 1px solid #212424;
+        color: #FFFFFF;
+    }
+    
+    #documenter_sidebar ul a:hover {
+        background: #333636;
+        color: #00DFFC;
+        border-top: 1px solid #333636;
+    }
+    
+    #documenter_sidebar ul a.current {
+        background: #333636;
+        color: #00DFFC;
+        border-top: 1px solid #333636;
+    }
+    
+    #documenter_copyright {
+        display: block !important;
+        visibility: visible !important;
+    }
+    </style>
+</head>
+
+<body class="documenter-project-appee">
+    <div id="documenter_sidebar">
+        <a href="#documenter_cover" id="documenter_logo"></a>
+        <ul id="documenter_nav">
+            <li><a class="current" href="#documenter_cover">Start</a></li>
+            <li><a href="#html_structure" title="HTML Structure">HTML Structure</a></li>
+            <li><a href="#css_files_and_structure" title="CSS Files and Structure">CSS Files and Structure</a></li>
+            <li><a href="#logo_menu_settings" title="Logo &amp; Menu Settings">Logo &amp; Menu Settings</a></li>
+            <li><a href="#intro_section" title="Intro section">Intro section</a></li>
+            <li><a href="#about_section" title="About Section">About Section</a></li>
+            <li><a href="#promo_video" title="Promo Video">Promo Video</a></li>
+            <li><a href="#features_section" title="Features Section">Features Section</a></li>
+            <li><a href="#app_screen_section" title="App Screen Section">App Screen Section</a></li>
+            <li><a href="#testimonial_section" title="testimonial section">Testimonial Section</a></li>
+            <li><a href="#price_section" title="price section">Price Section</a></li>
+            <li><a href="#benefits" title="Benefits">Benefits</a></li>
+            <li><a href="#counter_section" title="Counter section">Counter Section</a></li>
+            <li><a href="#download_section" title="download section">Download Section</a></li>
+            <li><a href="#faq_section" title="faq section">FAQ Section</a></li>
+            <li><a href="#press_section" title="press section">Press Section</a></li>
+            <li><a href="#team_section" title="team section">Team Section</a></li>
+            <li><a href="#blog_section" title="blog section">Blog Section</a></li>
+            <li><a href="#subscribe_section" title="subscribe section">Subscribe Section</a></li>
+            <li><a href="#contact_section" title="contact section">Contact Section</a></li>
+            <li><a href="#javascript" title="JavaScript">JavaScript</a></li>
+            <li><a href="#sources_and_credits" title="Sources and Credits">Sources and Credits</a></li>
+        </ul>
+        <div id="documenter_copyright">Copyright CodexTree 2016
+            <br> made with the <a href="http://rxa.li/documenter">Documenter v2.0</a>
+        </div>
+    </div>
+    <div id="documenter_content">
+<section id="documenter_cover">
+    <h1>appee</h1>
+    <h2>Bootstrap App Landing page</h2>
+    <div id="documenter_buttons">
+        <a href="https://twitter.com/" class="btn btn-large">Follow Us</a>
+    </div>
+    <hr>
+    <ul>
+        <li>created: </li>
+        <li>latest update:</li>
+        <li>by: CodexTree</li>
+        <li>email: <a href="mailto:CodexTree@gmail.com">CodexTree@gmail.com</a></li>
+    </ul>
+    <p>Thank you for purchasing my theme. If you have any questions that are beyond the scope of this help file, please feel free to email via my user page contact form here. Thanks so much!</p>
+</section>
+<section id="html_structure">
+    <div class="page-header">
+        <h3>HTML Structure</h3>
+        <hr class="notop">
+    </div>
+    <p>
+        All of the information within the main content is nested within multiple section with tag of <strong>&quot;section&quot;</strong>. Here is the general structure. All style.css are put in head tag, put all js files(In addition to jquery.js) before <strong>&lt;/body&gt;</strong> tag.</p>
+    <p>
+        <img alt="HTML Structure" src="assets/images/html-structure.png"></p>
+    
+</section>
+
+<section id="css_files_and_structure">
+    <div class="page-header">
+        <h3>CSS Files and Structure</h3>
+        <hr class="notop">
+    </div>
+    <p>There are 9 main CSS files in this theme.</p>
+
+	<p>If you would like to edit a specific section of the site, simply find the appropriate label in the CSS file, and then scroll down until you find the appropriate style that needs to be edited.</p>
+
+	<p>Open the css folder from this location <strong>'assets/css'</strong>, you'll find all css files. <p/> 
+	<ul>
+	    <li> main.css - theme common styles </li>
+        <li> bootstrap.min.css - Twitter bootstrap styles </li>
+        <li> font-awesome.min.css - Font Awesome stylesheet </li>
+        <li> owl.carousel.css - App screen, tesimonial, press and gallery blog carousel main style  </li>
+        <li> owl.theme.css - App screen, tesimonial, press and gallery blog carousel themes style  </li>
+        <li> magnific-popup.css - magnific-popup styles /<l/>
+        <li> spinner.css - Preloader styles /<l/>
+        <li> animate.min.css - Animation Style </li> </li>
+	</ul>
+</section>
+
+<section id="logo_menu_settings">
+	<div class="page-header">
+	<h3>Logo &amp; Menu Settings</h3>
+	<hr class="notop">
+	</div>        
+	<p> Change your logo text and link navbar markup:</p>
+    <pre class="prettyprint lang-css linenums">
+    &lt;!-- logo --&gt;
+    &lt;a class=&quot;navbar-brand text-logo&quot; href=&quot;index.html&quot;&gt; appee &lt;/a&gt;
+    </pre>
+
+	<p>
+	    If you want to use image logo use this code and remove text logo code:</p>
+    <pre class="prettyprint lang-css linenums">
+    &lt;!-- logo --&gt;
+    &lt;a class=&quot;navbar-brand logo&quot; href=&quot;index.html&quot;&gt;&lt;img src=&quot;assets/img/logo.png&quot; alt=&quot;logo&quot;&gt; &lt;/a&gt;</pre>
+	<p>
+	    The Image logo size is limited max height as 25px.</p>
+	<h3>
+	MENU:</h3>
+	<p>
+	    Edit menu here:</p>
+	<p>
+	    &nbsp;</p>
+	<p>
+	    Each &lt;li&gt; tag &nbsp;is a menu item, you could edit the text and link.</p>
+	<pre class="prettyprint lang-html linenums">
+	&lt;li&gt;&lt;a data-scroll href=&quot;#home&quot;&gt;HOME&lt;/a&gt; &lt;/li&gt;</pre>
+	<p>
+	    If you want to add submenu in Menu item, just insert code &nbsp;like this:</p>
+	<pre class="prettyprint lang-html linenums">
+	&lt;li class=&quot;dropdown&quot;&gt;&lt;a href=&quot;#&quot; class=&quot;dropdown-toggle&quot; data-toggle=&quot;dropdown&quot; data-hover=&quot;dropdown&quot; data-delay=&quot;10&quot;&gt;MORE&lt;/a&gt;
+	&lt;ul class=&quot;menulist dropdown-menu&quot;&gt;
+	&lt;li&gt;&lt;a href=&quot;../Windows/index-background-video.html&quot;&gt;Windows Version&lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+	&lt;/li&gt;</pre>
+</section>
+
+
+<section id="intro_section">
+    <div class="page-header">
+        <h3>Intro section</h3>
+        <hr class="notop">
+    </div>
+    <p>Add your intro text and Image here</p>
+    <img src="assets/images/promo-content1.png" alt="promto content" />
+
+</section>
+
+<section id="about_section">
+    <div class="page-header">
+        <h3>About Section</h3>
+        <hr class="notop">
+    </div>
+    <p>Edit this code for adding about of app </p>
+    <img src="assets/images/about-app.png" alt="about of app" />
+
+</section>
+<section id="promo_video">
+    <div class="page-header">
+        <h3>Promo Video</h3>
+        <hr class="notop">
+    </div>
+    <p> Embed your youtube or vimeo video here</p>
+    <img src="assets/images/about-video.png" alt="about video" />
+
+</section>
+
+<section id="features_section">
+    <div class="page-header">
+        <h3>Features Section</h3>
+        <hr class="notop">
+    </div>
+    <p>Edit this type of code for adding app features</p>
+    <img src="assets/images/features.png" alt="features" />
+    <p>Rename your image with exact existing name in this location <strong>'assets/img/screen/'</strong> then put your image that location. </p>
+    <p>if you want to add images edit this code</p>
+    <img src="assets/images/features-image.png" alt="features image" />
+
+</section>
+
+<section id="app_screen_section">
+    <div class="page-header">
+        <h3>App Screen Section</h3>
+        <hr class="notop">
+    </div>
+   <p>Rename your app screen image with exact existing name in this location <strong>'assets/img/screen/'</strong> then put your image that location. </p>
+   <p>if you want to add more images edit this code</p>
+   <img src="assets/images/appscreen.png" alt="app screen" />
+   <p>Add below code in this code <strong>&lt;div id="owl-app-screen" class="owl-carousel owl-theme"&gt;  Put Image Code here  &lt;/div&gt;</strong>  and give your image location</p>
+   	<pre class="prettyprint lang-html linenums">
+   		&lt;div class="owl_item"&gt;
+            &lt;img src="assets/img/screen/image-name.png" alt="app screen" /&gt;
+        &lt;/div&gt;
+   	</pre>
+</section>
+
+<section id="testimonial_section">
+    <div class="page-header">
+        <h3>Testimonial Section</h3>
+        <hr class="notop">
+    </div>
+    <p>Edit this code for adding users feedback</p>
+    <img src="assets/images/testimonial.png" alt="testimonial" />
+</section>
+
+<section id="price_section">
+    <div class="page-header">
+        <h3>Price Section</h3>
+        <hr class="notop">
+    </div>
+    <p>Add your plan name, price, currency, features here</p>
+    <img src="assets/images/price-plan.png" alt="price plan" />
+</section>
+
+<section id="benefits">
+	<div class="page-header"><h3>Benefits</h3><hr class="notop"></div>
+	<p>Edit this code for adding benefits</p>
+	<img src="assets/images/benefits.png" alt="why best" />
+</section>
+
+<section id="counter_section">
+    <div class="page-header">
+        <h3>Counter Section</h3>
+        <hr class="notop">
+    </div>
+    <p>Edit this code for adding Counting Number</p>
+    <img src="assets/images/counter.png" alt="Counter" />
+</section>
+
+<section id="download_section">
+    <div class="page-header">
+        <h3>Download Section</h3>
+        <hr class="notop">
+    </div>
+    <p>Edit this code for adding download link</p>
+    <img src="assets/images/download.png" alt="download" />
+</section>
+
+<section id="faq_section">
+    <div class="page-header">
+        <h3>FAQ Section</h3>
+        <hr class="notop">
+    </div>
+    <p>Edit this code for adding faq</p>
+    <img src="assets/images/faq.png" alt="faq" />
+</section>
+
+<section id="press_section">
+    <div class="page-header">
+        <h3>Press Section</h3>
+        <hr class="notop">
+    </div>
+    <p>Edit this code for adding press image</p>
+    <img src="assets/images/press.png" alt="press" />
+</section>
+
+<section id="team_section">
+    <div class="page-header">
+        <h3>Team Section</h3>
+        <hr class="notop">
+    </div>
+    <p>Edit this code for adding team member.</p>
+    <img src="assets/images/member.png" alt="team member" />
+</section>
+
+<section id="blog_section">
+    <div class="page-header">
+        <h3>Blog Section</h3>
+        <hr class="notop">
+    </div>
+    <p>Edit this code for adding blog</p>
+    <img src="assets/images/blog.png" alt="blog" />
+</section>
+
+<section id="subscribe_section">
+    <div class="page-header">
+        <h3>Subscribe Section</h3>
+        <hr class="notop">
+    </div>
+    <p>You need to mailchimp account for collect user email.</p>
+    <p>Open <strong>main.js</strong> file from this location <strong>'assets/js/main.js'</strong> Replace Your mailchimp API URL address in goes here:</p>
+    <img src="assets/images/mailchimp.png" alt="subscribe" />
+</section>
+
+<section id="contact_section">
+    <div class="page-header">
+        <h3>Contact Section</h3>
+        <hr class="notop">
+    </div>
+    <p>To send the contents of your 'Contact Form' to your email, simply open the file named <strong>'send.php'</strong> from this location <strong>'inc/send.php'</strong>.</p>
+    <p>Set contact form receive email address in file <strong>send.php here:</strong> </p>
+    <pre class="prettyprint lang-php linenums">
+    	$myemail = 'you@yoursite.com';
+    <pre>
+</section>
+
+<section id="javascript">
+    <div class="page-header">
+        <h3>JavaScript</h3>
+        <hr class="notop">
+    </div>
+    <p>This theme imports 14 Javascript files. All located in <strong>'assets/js'</strong> folder</p>
+    <ol>
+	    <li><a href="http://jquery.org/">jquery.min.js</a> - jQuery v1.11.2</li>
+        <li><a href="http://getbootstrap.com/">bootstrap.js</a> - Bootstrap javascript</li>
+        <li><a href="#">modernizr-2.8.3-respond-1.4.2.min.js</a> - Modernizr javascript</li>
+        <li><a href="#">owl-carousel.min.js</a> - Carousel Javascriptl</li>
+        <li><a href="#">jquery.ajaxchimp.min.js</a> - Ajaxchimp for Mailchimp</li>
+        <li><a href="#">jquery.magnific-popup.min.js</a> - Magnific Js</li>
+        <li><a href="#">wow.min.js</a> - Animation javascript</li>
+        <li><a href="#">retina.min.js</a> - Retina javascript</li>
+        <li><a href="#">switcher.js</a> - Color switcher javascript</li>
+        <li><a href="#">jquery.counterup.min.js</a> - Counter javascript</li>
+        <li><a href="#">jquery.parallax-1.1.3.js</a> - Parallax javascript</li>
+        <li><a href="#">jquery.ui.totop.js</a> - Scroll toTop javascript</li>
+        <li><a href="https://github.com/imakewebthings/jquery-waypoints/blob/master/licenses.txt">waypoints.min.js</a> - jQuery Waypoints - v2.0.4</li>
+        <li><a href="#">jquery.easing.1.3.js</a> - jquery easing </li>
+        <li><a href="#">smooth-scroll.js</a> - smooth-scroll JS</li>
+        <li><a href="#">form-contact.js.js</a> - Contact Form Validation JS</li>
+        <li><a href="#">main.js</a> - jQuery Plugins Initialization</li>
+   
+</section>
+
+<section id="sources_and_credits">
+    <div class="page-header">
+        <h3>Sources and Credits</h3>
+        <hr class="notop">
+    </div>
+    <p>I&#39;ve used the following images, icons or other files as listed.</p>
+    <ul>
+        <li><a href="http://pixabay.com">Images From Pixabay</a></li>
+        <li><a href="https://dribbble.com/jaskni">A Simple Lumia 1020 Template BY Jaskni Wong</a></li>
+        <li><a href="https://pixeden.com">iPhone 6 4,7 inch Three colors Mockup by pixeden</a></li>
+        <li><a href="https://dribbble.com/liamspradli">Nexus-6P-PSDs by liamspradli</a></li>
+        <li><a href="https://dribbble.com/ikima">App Mock up by vitally</a></li>
+    </ul>
+
+    <p><strong>Note: These resourse doesn't include main file. </strong></p>
+    <hr>
+    <p>
+        Once again, thank you so much for purchasing this theme. As I said at the beginning, I&#39;d be glad to help you if you have any questions relating to this theme. No guarantees, but I&#39;ll do my best to assist. If you have a more general question relating to the themes on Marketplace, please feel free to email via my profile page contact form or direct in my email. or you might consider visiting the forums and asking your question in the &quot;Item Discussion&quot; section.</p>
+    <p>
+        <strong>CodexTree</strong></p>
+</section>
+
+
+</div>
+</body>
+
+</html>
